@@ -1,0 +1,9 @@
+app_key: xXEARYMI1jUgKHwpB62ITovirMtsZGV4
+yaml_parser: symfony
+license_key: 1ac4fed6-afb5-454f-886a-5af6def9bf21
+locales:
+  en:
+    full: en_US
+    name: English
+    url: /
+timezone: America/New_York
