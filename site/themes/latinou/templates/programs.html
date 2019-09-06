@@ -1,0 +1,11 @@
+{{ partial:content content=recognition }}
+{{ partial:student-spotlight }}
+{{ section:page_scripts }}
+<script>
+  new Glide(".student-glide", {
+    type: "carousel",
+    perView: 1,
+    autoplay: 5000
+  }).mount();
+</script>
+{{ /section:page_scripts }}

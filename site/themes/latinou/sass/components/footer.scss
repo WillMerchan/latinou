@@ -1,0 +1,118 @@
+.callout-bar {
+  background: $orange;
+  display: flex;
+  & > * {
+    flex: 1;
+    text-align: center;
+    color: white;
+    padding: 1.2rem;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    &:hover {
+      background: $orange-darker;
+    }
+  }
+}
+
+.callout-donation {
+  border-right: 2px solid $orange-dark;
+}
+
+.callout-newsletter {
+  border-left: 2px solid $orange-dark;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.8rem 4rem;
+  background: white;
+  @media only screen and (max-width: $tablet-width) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 2rem;
+}
+
+.footer-brand-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 20rem;
+  img {
+    width: 100%;
+  }
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-link {
+  fill: $blue;
+  margin: 1rem;
+  &:hover {
+    fill: $blue-light;
+  }
+  svg {
+    width: 2rem;
+  }
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  p {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: $blue;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: $blue-light;
+    margin: 0.4rem 0;
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+.footer-bottom {
+  background: $blue-darker;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  text-align: center;
+  color: white;
+  a {
+    color: white;
+  }
+}
+
+.footer-partners {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  img {
+    max-width: 10rem;
+    margin: 0.8rem;
+    @media only screen and (max-width: $tablet-width) {
+      max-width: 8rem;
+    }
+  }
+}

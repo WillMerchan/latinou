@@ -1,0 +1,35 @@
+<div class="student-carousel-wrapper">
+  <div class="student-glide glide">
+    <div class="student-glide-track glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        {{
+          student
+        }}
+        <li class="glide__slide">
+          <div class="student-carousel">
+            <div class="student-carousel-content">
+              <h2>{{ name }}</h2>
+              <h3>{{ class }}</h3>
+              <p>{{ content }}</p>
+            </div>
+          </div>
+        </li>
+        {{ /student }}
+      </ul>
+    </div>
+    <div class="glide__arrows" data-glide-el="controls">
+      <button
+        class="student-arrow-left glide__arrow glide__arrow--left"
+        data-glide-dir="<"
+      >
+        <
+      </button>
+      <button
+        class="student-arrow-right glide__arrow glide__arrow--right"
+        data-glide-dir=">"
+      >
+        >
+      </button>
+    </div>
+  </div>
+</div>

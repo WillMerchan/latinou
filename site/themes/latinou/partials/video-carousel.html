@@ -1,0 +1,53 @@
+<div class="video-carousel-wrapper">
+  <div class="video-glide glide">
+    <div class="video-glide-track glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        {{
+          video
+        }}
+        <li class="glide__slide">
+          <div class="video-carousel">
+            <div class="video-carousel-content">
+              <h2>{{ video_title }}</h2>
+              {{ if video_link | is_embeddable }}
+              <div class="video-carousel-media">
+                <iframe
+                  src="{{
+                    video_link | embed_url
+                  }}?color=ff9933&title=0&byline=0&portrait=0"
+                  style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                  frameborder="0"
+                  allow="autoplay; fullscreen"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              {{ else }}
+              <!-- Other HTML5 video types -->
+              <video src="{{ video_link | embed_url }}" ...></video>
+              {{ /if }}
+              <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+          </div>
+        </li>
+        {{ /video }}
+      </ul>
+    </div>
+    <div class="glide__arrows" data-glide-el="controls">
+      <button
+        class="video-arrow-left glide__arrow glide__arrow--left"
+        data-glide-dir="<"
+      >
+        <
+      </button>
+      <button
+        class="video-arrow-right glide__arrow glide__arrow--right"
+        data-glide-dir=">"
+      >
+        >
+      </button>
+    </div>
+  </div>
+  <a class="video-out-link" href="http://vimeo.com/user33540858" target="_blank"
+    >Click to view more</a
+  >
+</div>

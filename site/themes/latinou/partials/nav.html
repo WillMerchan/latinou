@@ -1,0 +1,38 @@
+<div class="topnav">
+  <a
+    href=""
+    href="mailto:{{ email }}"
+    class="topnav-link"
+    >{{ partial:svg/email }}</a
+  >
+  <a
+    href=""
+    href="{{ facebook }}"
+    class="topnav-link"
+    >{{ partial:svg/facebook }}</a
+  >
+  <a
+    href=""
+    href="{{ twitter }}"
+    class="topnav-link"
+    >{{ partial:svg/twitter }}</a
+  >
+  <a href="" href="{{ vimeo }}" class="topnav-link">{{ partial:svg/vimeo }}</a>
+  <select class="topnav-translate" onchange="doGTranslate(this);">
+    <option value="en|en">English</option>
+    <option value="en|es">Spanish</option>
+  </select>
+  <div id="google_translate_element2"></div>
+</div>
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="{{ theme:img src="LUCA-logo.jpg"}}" alt="">
+  </a>
+  <div class="nav-links">
+    <a href="/who-we-are">Who We Are</a>
+    <a href="/get-involved">Get Involved</a>
+    <a href="/programs">Programs</a>
+    <a href="/news-events">News + Events</a>
+    <a href="" class="button button-donate">Donate Now</a>
+  </div>
+</nav>

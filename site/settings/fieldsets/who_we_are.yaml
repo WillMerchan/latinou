@@ -1,0 +1,54 @@
+sections:
+  main:
+    display: Main
+    fields:
+      mission_statement:
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: 'Mission Statement'
+      the_luca_team:
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: false
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: 'The LUCA Team'
+      faq:
+        fieldset: faq
+        type: partial
+        display: FAQ
+taxonomies: true
+title: 'Who We Are'

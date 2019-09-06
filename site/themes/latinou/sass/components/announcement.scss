@@ -1,0 +1,16 @@
+.announcement {
+  background: $orange;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.announcement-content {
+  width: 100%;
+  max-width: 120rem;
+  p,
+  h2 {
+    margin: 0;
+    color: white;
+  }
+}

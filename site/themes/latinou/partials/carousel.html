@@ -1,0 +1,29 @@
+<div class="carousel-glide glide">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      {{
+        slide
+      }}
+      <li class="glide__slide">
+        <div class="carousel">
+          <div class="carousel-media">
+            <img src="{{ background_image }}" alt="" />
+          </div>
+          <div class="carousel-content">
+            <h2>{{ title }}</h2>
+            <p>
+              {{ tagline }}
+            </p>
+            <a href="" class="button button-hero">Learn More</a>
+          </div>
+        </div>
+      </li>
+      {{ /slide }}
+    </ul>
+  </div>
+  <div class="glide__bullets" data-glide-el="controls[nav]">
+    <button class="glide__bullet" data-glide-dir="=0"></button>
+    <button class="glide__bullet" data-glide-dir="=1"></button>
+    <button class="glide__bullet" data-glide-dir="=2"></button>
+  </div>
+</div>

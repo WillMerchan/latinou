@@ -1,0 +1,42 @@
+.video-carousel-wrapper {
+  padding: 4rem 2rem 5rem;
+  display: flex;
+  justify-content: center;
+  background: $blue-dark;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-glide {
+  max-width: 80rem;
+}
+
+.video-carousel-content {
+  color: white;
+  text-align: center;
+  h2 {
+    margin: 0 0 2rem 0;
+  }
+}
+.video-carousel-media {
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+
+.video-carousel {
+  width: 100%;
+}
+
+.video-arrow-left {
+  left: -3em;
+}
+.video-arrow-right {
+  right: -5rem;
+}
+
+.video-out-link {
+  margin-top: 3rem;
+  color: white;
+  text-align: center;
+}

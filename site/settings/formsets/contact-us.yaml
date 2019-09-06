@@ -1,0 +1,24 @@
+title: 'Contact Us'
+store: false
+honeypot: hpot
+fields:
+  first_name:
+    display: 'First Name'
+    validate: string
+  last_name:
+    display: 'Last Name'
+    validate: string
+  email:
+    display: 'Your Email'
+    validate: email
+  comments:
+    display: Comments
+columns:
+  - first_name
+  - last_name
+  - email
+  - comments
+email:
+  -
+    to: willmerchan@gmail.com
+    subject: 'New message from LUCA'

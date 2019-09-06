@@ -1,0 +1,20 @@
+{{ partial:carousel }}
+{{ if display_announcement }}
+{{ partial:announcement }}
+{{ /if }}
+{{ partial:content content=impact_statement }}
+{{ partial:video-carousel }}
+{{ section:page_scripts }}
+<script>
+  var glide = new Glide(".carousel-glide", {
+    autoplay: 5000,
+    gap: 0
+  });
+  glide.mount();
+  new Glide(".video-glide", {
+    type: "carousel",
+    focusAt: "center",
+    perView: 1
+  }).mount();
+</script>
+{{ /section:page_scripts }}

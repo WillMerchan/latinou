@@ -1,0 +1,19 @@
+sections:
+  main:
+    display: Main
+    fields:
+      video:
+        mode: table
+        add_row: 'Add Video'
+        fields:
+          video_title:
+            type: text
+            display: 'Video Title'
+          video_link:
+            type: video
+            display: 'Video Link'
+        type: grid
+        display: Video
+taxonomies: false
+title: 'Video Carousel'
+hide: true

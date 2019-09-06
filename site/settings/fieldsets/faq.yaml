@@ -1,0 +1,19 @@
+sections:
+  main:
+    display: Main
+    fields:
+      faq:
+        mode: stacked
+        add_row: 'Add Question & Answer'
+        fields:
+          question:
+            type: text
+            display: Question
+          answer:
+            type: text
+            display: Answer
+        type: grid
+        display: FAQ
+taxonomies: true
+hide: true
+title: FAQ

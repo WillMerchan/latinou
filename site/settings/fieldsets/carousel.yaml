@@ -1,0 +1,28 @@
+sections:
+  main:
+    display: Main
+    fields:
+      slide:
+        mode: stacked
+        fields:
+          title:
+            type: text
+            display: Title
+          tagline:
+            type: text
+            display: Tagline
+          background_image:
+            container: main
+            folder: homepage-slider
+            restrict: true
+            max_files: 1
+            type: assets
+            display: 'Background Image'
+        type: grid
+        display: Slide
+        add_row: 'Add Slide'
+        max_rows: 3
+        min_rows: 1
+taxonomies: false
+hide: true
+title: Carousel

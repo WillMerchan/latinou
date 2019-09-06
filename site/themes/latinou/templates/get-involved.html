@@ -1,0 +1,29 @@
+{{ partial:content content=volunteer }}
+{{ partial:content content=donate }}
+{{ form:create in="contact-us" }}
+
+{{ if errors }}
+<div class="alert alert-danger">
+  {{ errors }}
+  {{ value }}<br />
+  {{ /errors }}
+</div>
+{{ /if }}
+
+{{ if success }}
+<div class="alert alert-success">
+  Form was submitted successfully.
+</div>
+{{ /if }}
+
+{{# You can loop through fields from the formset... #}}
+{{ fields }}
+<div class="form-group">
+  <label>{{ display }}</label>
+  <input type="text" name="{{ name }}" value="{{ old }}" />
+</div>
+{{ /fields }}
+
+<button>Submit</button>
+
+{{ /form:create }}

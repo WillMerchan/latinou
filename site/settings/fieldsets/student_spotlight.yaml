@@ -1,0 +1,29 @@
+sections:
+  main:
+    display: Main
+    fields:
+      student:
+        mode: stacked
+        add_row: 'Add New Student'
+        fields:
+          name:
+            type: text
+            display: Name
+          class:
+            type: text
+            display: Class
+          content:
+            type: textarea
+            display: Content
+          image:
+            container: main
+            folder: student-spotlight
+            restrict: true
+            max_files: 1
+            type: assets
+            display: Image
+        type: grid
+        display: Student
+taxonomies: true
+hide: true
+title: 'Student Spotlight'

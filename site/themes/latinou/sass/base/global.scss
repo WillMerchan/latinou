@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%; /* Now 10px = 1rem! */
+}
+
+body {
+  font-size: 16px; /* px fallback */
+  font-size: 1.6rem; /* default font-size for document */
+  line-height: 1.5; /* a nice line-height */
+  background: #fafafa;
+  font-family: $font-sans;
+  top: 0 !important;
+}
+
+a {
+  cursor: pointer;
+}
+
+.component {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  //padding: 30px;
+  margin: 60px 30px;
+  position: relative;
+}
+
+.component img {
+  width: 100%;
+}

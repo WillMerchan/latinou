@@ -1,0 +1,27 @@
+// Colors
+$blue-darkest: #0a0e1f;
+$blue-darker: #10152f;
+$blue-dark: #172251;
+$blue: #1a2c7b;
+$blue-light: #455a9b;
+$blue-lighter: #94a8d9;
+$blue-lightest: #dee9fc;
+$orange-darkest: #8c3a08;
+$orange-darker: #bb4e0b;
+$orange-dark: #dc5f12;
+$orange: #f57b30;
+$orange-light: #fb995d;
+$orange-lighter: #fcb385;
+$orange-lightest: #fff9f0;
+
+$primary: $blue-dark;
+$secondary: $orange-light;
+
+// Fonts
+$font-sans: "Roboto", sans-serif;
+$font-serif: "DM Serif Display", serif;
+
+//Breakpoints
+$desktop-width: 1024px;
+$tablet-width: 768px;
+$mobile-width: 640px;

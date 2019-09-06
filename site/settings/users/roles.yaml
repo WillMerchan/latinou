@@ -1,0 +1,25 @@
+8371d2da-0b40-4c1b-a227-a6c8109b0745:
+  title: Editor
+  slug: editor
+  permissions:
+    - 'cp:access'
+    - 'content:view_drafts_on_frontend'
+    - resolve_duplicates
+    - 'pages:view'
+    - 'pages:edit'
+    - 'pages:create'
+    - 'pages:delete'
+    - 'pages:reorder'
+    - 'globals:global:view'
+    - 'globals:global:edit'
+    - 'assets:main:view'
+    - 'assets:main:edit'
+    - 'assets:main:create'
+    - 'assets:main:delete'
+    - forms
+    - 'users:view'
+    - 'users:edit'
+    - 'users:create'
+    - 'users:delete'
+    - 'users:edit-passwords'
+    - 'users:edit-roles'

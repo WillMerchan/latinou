@@ -1,0 +1,32 @@
+sections:
+  main:
+    display: Main
+    fields:
+      recognition:
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: Recognition
+      student_spotlight:
+        fieldset: student_spotlight
+        type: partial
+        display: 'Student Spotlight'
+taxonomies: true
+title: Programs
