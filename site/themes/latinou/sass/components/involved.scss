@@ -1,0 +1,57 @@
+.involved-wrapper {
+  max-width: 1200px;
+  margin: 1.6rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.involved-blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.involved-block {
+  background: white;
+  border-radius: 0.6rem;
+  border: 1px solid $orange-lighter;
+  padding: 1rem 1.4rem;
+  flex: 1;
+  margin: 1.2rem;
+  box-shadow: 0 0 20px rgba(black, 0.06);
+
+  h3 {
+    color: $orange;
+    margin: 0 0 1rem 0;
+    text-align: center;
+  }
+  p {
+    margin: 0 0 1rem 0;
+  }
+  a {
+    text-transform: uppercase;
+    color: $orange;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    &:hover {
+      color: $orange-dark;
+    }
+  }
+}
+
+.involved-title {
+  color: $orange;
+}
+
+.invovled-newsletter-link {
+  color: $orange;
+  transition: all 0.2s ease;
+  font-size: 2rem;
+  margin: 1.4rem 0;
+  &:hover {
+    color: $orange-dark;
+  }
+}

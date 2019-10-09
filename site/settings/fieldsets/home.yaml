@@ -8,8 +8,10 @@ sections:
         display: Carousel
       display_announcement:
         type: toggle
-        width: 25
         display: 'Display Announcement'
+      announcement_link:
+        type: text
+        display: 'Announcement Link'
       announcement:
         cheatsheet: false
         container: main
@@ -17,7 +19,6 @@ sections:
         restrict_assets: false
         type: markdown
         display: Announcement
-        width: 75
       impact_statement:
         buttons:
           - h2
@@ -45,5 +46,17 @@ sections:
         fieldset: video-carousel
         type: partial
         display: 'Video Carousel'
+      get_involved:
+        mode: stacked
+        max_rows: 3
+        min_rows: 3
+        add_row: 'Add Block'
+        fields:
+          block:
+            fieldset: get-involved
+            type: partial
+            display: Block
+        type: grid
+        display: 'Get Involved'
 taxonomies: true
 title: Home

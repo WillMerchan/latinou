@@ -13,6 +13,7 @@ sections:
           - removeformat
           - quote
           - anchor
+          - assets
         style: sans
         spellcheck: true
         allow_source: true
@@ -21,9 +22,19 @@ sections:
         link_noreferrer: false
         target_blank: false
         semantic_elements: false
-        restrict_assets: false
+        restrict_assets: true
         type: bard
         display: Recognition
+        folder: Logos
+        container: main
+      recognition_logo:
+        container: main
+        folder: Logos
+        restrict: true
+        max_files: 1
+        mode: list
+        type: assets
+        display: 'Recognition Logo'
       student_spotlight:
         fieldset: student_spotlight
         type: partial

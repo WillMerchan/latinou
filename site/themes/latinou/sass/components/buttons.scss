@@ -18,14 +18,13 @@
 
 .button.button-hero {
   text-transform: uppercase;
+  letter-spacing: 2px;
   font-size: 1.6rem;
   padding: 0.8rem 2.4rem;
-  border: 2px solid white;
   color: white;
-  // background: rgba(white, 0.8);
+  background: lighten($color: $primary, $amount: 10%);
   display: inline-block;
   &:hover {
-    background: rgba(white, 1);
-    color: $primary;
+    background: $primary;
   }
 }
