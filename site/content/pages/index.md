@@ -41,6 +41,8 @@ get_involved:
     text: 'Help students through ongoing and one-time volunteer opportunities. Volunteer at Latino U College Access and make a difference in a student’s life by helping them reach their college goals and fulfill their potential.'
     link_text: 'Learn More'
     link_url: /get-involved
+sponsor_title: 'Thank You to our Sponsors and Supporters'
+sponsor_banner: /assets/Sponsors/sponsor-banner.png
 title: Home
 template: home
 fieldset: home

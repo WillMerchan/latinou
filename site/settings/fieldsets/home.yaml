@@ -58,5 +58,15 @@ sections:
             display: Block
         type: grid
         display: 'Get Involved'
+      sponsor_title:
+        type: text
+        display: 'Sponsor Title'
+      sponsor_banner:
+        container: main
+        folder: Sponsors
+        restrict: true
+        max_files: 1
+        type: assets
+        display: 'Sponsor Banner'
 taxonomies: true
 title: Home
