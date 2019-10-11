@@ -1,0 +1,11 @@
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 2rem 0;
+  img {
+    max-width: 60rem;
+    margin-bottom: 4rem;
+  }
+}

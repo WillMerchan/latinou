@@ -2,6 +2,13 @@ sections:
   main:
     display: Main
     fields:
+      header_image:
+        container: main
+        folder: Headers
+        restrict: true
+        max_files: 1
+        type: assets
+        display: 'Header Image'
       mission_statement:
         buttons:
           - h2
@@ -46,6 +53,68 @@ sections:
         restrict_assets: false
         type: bard
         display: 'The LUCA Team'
+      board_of_directors:
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - unorderedlist
+          - orderedlist
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: 'Board Of Directors'
+      advisory_council:
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - unorderedlist
+          - orderedlist
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: 'Advisory Council'
+      support_staff:
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: 'Support Staff'
       faq:
         fieldset: faq
         type: partial

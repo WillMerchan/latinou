@@ -1,0 +1,13 @@
+.who-we-are {
+  background: $orange-lightest;
+}
+.who-members {
+  display: flex;
+  width: 100%;
+  max-width: 100rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.who-directors {
+  margin-right: 4rem;
+}

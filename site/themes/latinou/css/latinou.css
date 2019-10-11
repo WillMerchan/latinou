@@ -379,6 +379,22 @@ h3 {
   font-size: 2.4rem;
 }
 
+.who-we-are {
+  background: #fff9f0;
+}
+
+.who-members {
+  display: flex;
+  width: 100%;
+  max-width: 100rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.who-directors {
+  margin-right: 4rem;
+}
+
 .button {
   padding: 0.4rem 1.2rem;
   background: #172251;
@@ -951,6 +967,7 @@ iframe.goog-te-banner-frame,
   color: #f57b30;
   margin: 0 0 1rem 0;
   text-align: center;
+  font-weight: normal;
 }
 
 .involved-block p {
@@ -972,7 +989,7 @@ iframe.goog-te-banner-frame,
 }
 
 .involved-title {
-  color: #f57b30;
+  color: #22292f;
 }
 
 .invovled-newsletter-link {
@@ -984,6 +1001,52 @@ iframe.goog-te-banner-frame,
 
 .invovled-newsletter-link:hover {
   color: #dc5f12;
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 2rem 0;
+}
+
+.sponsors img {
+  max-width: 60rem;
+  margin-bottom: 4rem;
+}
+
+.hero {
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.faq-wrapper {
+  background: #172251;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.faq {
+  max-width: 100rem;
+  color: white;
+}
+
+.faq h2 {
+  margin: 0;
+}
+
+.faq-question {
+  font-weight: 600;
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=latinou.css.map */

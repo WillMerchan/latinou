@@ -3,6 +3,8 @@
 @import "base/variables";
 @import "base/global";
 @import "base/typography";
+// Pages
+@import "layouts/who-we-are";
 // Components
 @import "components/buttons";
 @import "components/announcement";
@@ -13,3 +15,6 @@
 @import "components/content";
 @import "components/video-carousel";
 @import "components/involved";
+@import "components/sponsors";
+@import "components/hero.scss";
+@import "components/faq.scss";

@@ -42,7 +42,7 @@ get_involved:
     link_text: 'Learn More'
     link_url: /get-involved
 sponsor_title: 'Thank You to our Sponsors and Supporters'
-sponsor_banner: /assets/Sponsors/sponsor-banner.png
+sponsor_banner: /assets/Sponsors/sponsor-banner-1570668022.jpg
 title: Home
 template: home
 fieldset: home

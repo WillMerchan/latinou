@@ -1,3 +1,15 @@
+{{ partial:hero hero=header_image }}
 {{ partial:content content=mission_statement }}
-{{ partial:content content=the_luca_team }}
+<div class="who-we-are">
+  {{ partial:content content=the_luca_team}}
+  <div class="who-members">
+    <div class="who-directors">
+      {{ board_of_directors }}
+    </div>
+    <div class="who-advisors">
+      {{ advisory_council }}
+    </div>
+  </div>
+  {{ partial:content content=support_staff}}
+</div>
 {{ partial:faq }}

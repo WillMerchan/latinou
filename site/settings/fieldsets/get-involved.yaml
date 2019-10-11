@@ -5,6 +5,7 @@ sections:
       title:
         display: Title
         type: text
+        localizable: true
       text:
         type: textarea
         display: Text
@@ -16,4 +17,4 @@ sections:
         display: 'Link URL'
 taxonomies: true
 hide: true
-title: 'Get Involved'
+title: 'Home Involved'
