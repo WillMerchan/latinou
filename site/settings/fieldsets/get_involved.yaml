@@ -2,6 +2,13 @@ sections:
   main:
     display: Main
     fields:
+      header_image:
+        container: main
+        folder: Headers
+        restrict: true
+        max_files: 1
+        type: assets
+        display: 'Header Image'
       volunteer:
         buttons:
           - h2
@@ -46,5 +53,91 @@ sections:
         restrict_assets: false
         type: bard
         display: Donate
+      partners:
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - anchor
+          - assets
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: Partners
+      partner_logos:
+        mode: stacked
+        add_row: 'Add Partner'
+        fields:
+          partner_name:
+            type: text
+            display: 'Partner Name'
+          partner_logo:
+            container: main
+            folder: Logos
+            restrict: true
+            max_files: 1
+            type: assets
+            display: 'Partner Logo'
+          partner_link:
+            type: text
+            display: 'Partner Link'
+        type: grid
+        display: 'Partner Logos'
+      educators:
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: Educators
+      contact_information:
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: 'Contact Information'
 taxonomies: true
-title: "Get Involved"
+title: 'Get Involved'

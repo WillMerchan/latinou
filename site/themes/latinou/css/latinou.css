@@ -357,6 +357,11 @@ body {
 
 a {
   cursor: pointer;
+  color: #f57b30;
+}
+
+a:hover {
+  color: #dc5f12;
 }
 
 .component {
@@ -395,6 +400,95 @@ h3 {
   margin-right: 4rem;
 }
 
+.gi-split-section {
+  padding-top: 4rem;
+  display: flex;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.gi-volunteer {
+  background: #dee9fc;
+  border: 1px solid #94a8d9;
+  margin-right: 1.2rem;
+  border-radius: 0.3rem;
+}
+
+.gi-donate {
+  background: #fff9f0;
+  border: 1px solid #fcb385;
+  margin-left: 1.2rem;
+  border-radius: 0.3rem;
+}
+
+.gi-partners {
+  background: white;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 4rem 0;
+  border-top: 1rem solid #bb4e0b;
+  border-bottom: 1rem solid #bb4e0b;
+}
+
+.gi-partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.gi-partner-logo {
+  max-width: 15rem;
+  margin: 1.2rem;
+}
+
+.gi-contact {
+  max-width: 100rem;
+  margin: 2rem auto 4rem;
+}
+
+.gi-contact-split {
+  display: flex;
+  align-items: flex-start;
+}
+
+.gi-contact-text {
+  flex: 1;
+}
+
+.gi-contact-form {
+  background: white;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #dae1e7;
+  padding: 2rem 3rem;
+  flex: 1;
+  margin-right: 4rem;
+}
+
+.gi-contact-form label {
+  font-weight: 600;
+}
+
+.gi-contact-form input {
+  margin: 0 0 1rem;
+  width: 100%;
+}
+
+.programs-recognition {
+  display: flex;
+  max-width: 100rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.programs-recognition img {
+  width: 100%;
+  max-width: 25rem;
+}
+
 .button {
   padding: 0.4rem 1.2rem;
   background: #172251;
@@ -402,6 +496,7 @@ h3 {
   text-decoration: none;
   border-radius: 0.3rem;
   transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 
 .button.button-donate {
@@ -1021,6 +1116,7 @@ iframe.goog-te-banner-frame,
   -o-object-fit: cover;
   object-fit: cover;
   overflow: hidden;
+  max-height: 50vh;
 }
 
 .hero-image {
@@ -1047,6 +1143,35 @@ iframe.goog-te-banner-frame,
 .faq-question {
   font-weight: 600;
   margin-top: 2rem;
+}
+
+.student-carousel-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background: #0a0e1f;
+  padding: 2rem;
+}
+
+.student-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-carousel-content {
+  color: white;
+  max-width: 70rem;
+}
+
+.student-carousel-image {
+  max-width: 20rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+.student-carousel-image img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=latinou.css.map */

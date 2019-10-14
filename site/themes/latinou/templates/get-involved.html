@@ -1,29 +1,74 @@
-{{ partial:content content=volunteer }}
-{{ partial:content content=donate }}
-{{ form:create in="contact-us" }}
-
-{{ if errors }}
-<div class="alert alert-danger">
-  {{ errors }}
-  {{ value }}<br />
-  {{ /errors }}
+{{ partial:hero hero=header_image }}
+<div class="gi-split-section">
+  <div class="gi-volunteer">
+    {{ partial:content content=volunteer }}
+  </div>
+  <div class="gi-donate">
+    {{ partial:content content=donate }}
+  </div>
 </div>
-{{ /if }}
-
-{{ if success }}
-<div class="alert alert-success">
-  Form was submitted successfully.
+<div class="gi-partners">
+  <div class="gi-partners-text">
+    <h2>Partners</h2>
+    <p>
+      Thank you to our community and school partners for their continued
+      support.
+    </p>
+    <h3>Community Partners</h3>
+  </div>
+  <div class="gi-partner-logos">
+    {{ partner_logos }}
+    <a href="{{ partner_link }}" target="_blank"
+      ><img
+        src="{{ partner_logo }}"
+        alt="{{ partner_name }}"
+        class="gi-partner-logo"
+    /></a>
+    {{ /partner_logos}}
+    <p>
+      Contact <a href="mailto:sab@latinou.org">sab@latinou.org</a> to become a
+      sponsor or partner.
+    </p>
+  </div>
 </div>
-{{ /if }}
+{{ partial:content content=educators }}
+<div class="gi-contact">
+  <h2>Contact Us</h2>
+  <p>
+    We want to hear from you! Let us know what you want to learn more about.
+  </p>
+  <div class="gi-contact-split">
+    <div class="gi-contact-form">
+      {{ form:create in="contact-us" }}
 
-{{# You can loop through fields from the formset... #}}
-{{ fields }}
-<div class="form-group">
-  <label>{{ display }}</label>
-  <input type="text" name="{{ name }}" value="{{ old }}" />
+      {{ if errors }}
+      <div class="alert alert-danger">
+        {{ errors }}
+        {{ value }}<br />
+        {{ /errors }}
+      </div>
+      {{ /if }}
+
+      {{ if success }}
+      <div class="alert alert-success">
+        Form was submitted successfully.
+      </div>
+      {{ /if }}
+
+      {{# You can loop through fields from the formset... #}}
+      {{ fields }}
+      <div class="form-group">
+        <label>{{ display }}</label>
+        <input type="text" name="{{ name }}" value="{{ old }}" />
+      </div>
+      {{ /fields }}
+
+      <button class="button button-hero">Submit</button>
+
+      {{ /form:create }}
+    </div>
+    <div class="gi-contact-text">
+      {{ contact_information }}
+    </div>
+  </div>
 </div>
-{{ /fields }}
-
-<button>Submit</button>
-
-{{ /form:create }}

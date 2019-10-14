@@ -1,0 +1,25 @@
+.student-carousel-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background: $blue-darkest;
+  padding: 2rem;
+}
+.student-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-carousel-content {
+  color: white;
+  max-width: 70rem;
+}
+
+.student-carousel-image {
+  max-width: 20rem;
+  object-fit: cover;
+  margin-right: 2rem;
+  img {
+    width: 100%;
+  }
+}

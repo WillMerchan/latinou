@@ -1,0 +1,73 @@
+.gi-split-section {
+  padding-top: 4rem;
+  display: flex;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.gi-volunteer {
+  background: $blue-lightest;
+  border: 1px solid $blue-lighter;
+  margin-right: 1.2rem;
+  border-radius: 0.3rem;
+}
+
+.gi-donate {
+  background: $orange-lightest;
+  border: 1px solid $orange-lighter;
+  margin-left: 1.2rem;
+  border-radius: 0.3rem;
+}
+
+.gi-partners {
+  background: white;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 4rem 0;
+  border-top: 1rem solid $orange-darker;
+  border-bottom: 1rem solid $orange-darker;
+}
+
+.gi-partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.gi-partner-logo {
+  max-width: 15rem;
+  margin: 1.2rem;
+}
+
+.gi-contact {
+  max-width: 100rem;
+  margin: 2rem auto 4rem;
+}
+.gi-contact-split {
+  display: flex;
+  align-items: flex-start;
+}
+
+.gi-contact-text {
+  flex: 1;
+}
+
+.gi-contact-form {
+  background: white;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid $grey-light;
+  padding: 2rem 3rem;
+  flex: 1;
+  margin-right: 4rem;
+  label {
+    font-weight: 600;
+  }
+  input {
+    margin: 0 0 1rem;
+    width: 100%;
+  }
+}
